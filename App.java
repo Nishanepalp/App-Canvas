@@ -6,6 +6,9 @@ public class App{
         AppWindow win = new AppWindow();
         win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         win.init();
+        win.pack();
+
+        
 
         win.setVisible(true);
 
